@@ -1,21 +1,15 @@
-import React from 'react';
-import { Github, ExternalLink } from 'lucide-react';
+import React from "react";
+import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: 'API de E-commerce',
-    description: 'API RESTful desenvolvida com Spring Boot para gerenciamento de produtos e pedidos.',
-    image: 'https://images.unsplash.com/photo-1555421689-491a97ff2040',
-    tech: ['Java', 'Spring Boot', 'MySQL'],
-    github: 'https://github.com/joabpereira/ecommerce-api',
-    live: 'https://api.example.com',
-  },
-  {
-    title: 'Sistema de Gestão',
-    description: 'Backend para sistema de gestão empresarial com autenticação JWT.',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f',
-    tech: ['Java', 'Spring Security', 'PostgreSQL'],
-    github: 'https://github.com/joabpereira/gestao-sistema',
+    title: "Consulta de CEP",
+    description:
+      "API RESTful desenvolvida com Spring Boot para consultar CEPs.",
+    image: "https://images.unsplash.com/photo-1555421689-491a97ff2040",
+    tech: ["Java", "Spring Boot", "RestTemplate"],
+    github: "https://github.com/JoabPereira/ConsultaCepApi",
+    live: "https://api.example.com",
   },
 ];
 
