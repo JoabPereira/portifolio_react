@@ -11,6 +11,15 @@ const projects = [
     github: "https://github.com/JoabPereira/ConsultaCepApi",
     live: "https://api.example.com",
   },
+  {
+    title: "CHUCK NORRIS API",
+    description:
+      "Front-End em React consumindo api publica de piadas do Chuck Norris",
+    image: "https://images.unsplash.com/photo-1555421689-491a97ff2040",
+    tech: ["React", "TypeScript", "Vite", "JavaScript", "CSS", "HTML"],
+    github: "https://github.com/JoabPereira/ConsumindoAPI_Chuck_Norris",
+    live: "https://joabpereira.github.io/ConsumindoAPI_Chuck_Norris/",
+  },
 ];
 
 export function Projects() {
