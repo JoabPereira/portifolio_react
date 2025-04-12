@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Github,
   Linkedin,
@@ -10,6 +10,7 @@ import { Header } from "./components/Header";
 import { About } from "./components/About";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
+import fotoMinha from "../imagens/fotoMinha.jpeg";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
           <div className="container mx-auto px-4 py-16 text-center">
             <div className="mb-8">
               <img
-                src="imagens/fotoMinha.JPEG"
+                src={fotoMinha}
                 alt="Joab Pereira"
                 className="w-48 h-48 rounded-full mx-auto object-cover border-4 border-blue-500"
               />
